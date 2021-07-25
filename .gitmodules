@@ -1,0 +1,3 @@
+[submodule "linuxserver"]
+	path = linuxserver
+	url = https://github.com/linuxserver/docker-deluge.git

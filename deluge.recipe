@@ -1,0 +1,3 @@
+# git-build-recipe format 0.4 deb-version 2.0.0.dev{revno}-{git-commit}-{time}
+https://github.com/deluge-torrent/deluge develop
+nest-part packaging lp:~calumlind/+git/lp_deluge_deb debian debian develop
