@@ -18,7 +18,7 @@ jobs:
     - name: Set up QEMU
       uses: docker/setup-qemu-action@v1.0.1
     - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v1.6.0
+      uses: docker/setup-buildx-action@v2.1.0
     - name: Install packages
       run: |
         sudo apt-get install -y --no-install-recommends git-build-recipe pbuilder pristine-tar quilt devscripts debhelper dh-python
